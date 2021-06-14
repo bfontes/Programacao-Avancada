@@ -1,1 +1,14 @@
+#include<stdio.h>
+
+int main(){
+int i=5, *p;
+p = &i;
+printf("%x %d %d %d %d", p,*p+2,**&p,3**p,**&p+4);
+}
+
+Retorno 01(p): O valor do endereço da mémoria de i, no caso, como definido, será 4094(teoricamente).
+Retorno 02(*p+2): Recuperando o endereço do conteudo armazenado no ponteiro e somando mais 2, logo, será 5+2 = 7.
+Retorno 03(**&p): Retorna o valor armazenado no ponteiro p, que será definido como o que está em i, logo, 5.
+Retorno 04(3**p): Retorna o valor armazenado no ponteiro p, que será 5, multiplicado com 3, e a resposta será 15.
+Retorno 05(**&p+4): Retorna o valor armazenado no ponteiro p somado a 4, resultando em 9.
 
