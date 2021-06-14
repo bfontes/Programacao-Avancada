@@ -1,0 +1,5 @@
+
+p = mat + 1; ---> valido pois os vetores nao precisam usar o operador de endereco, logo, pode ser incrementado uma posição.
+p = mat++; --> essa expressao tenta incrementar um valor inteiro, quando na verdade deveria ser um incremento em int[], logo, não pe válida.
+p = ++mat; --> do mesmo modo da opção anterior, não é válida.
+x = (*mat)++;  -->  x recebe o valor de mat[0] e depois incrementa,logo, é válido.
