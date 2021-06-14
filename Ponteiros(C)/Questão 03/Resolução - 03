@@ -1,0 +1,10 @@
+
+
+p = i; -->  p não aponta para i, pois o i não tem o operador de endereço, logo, a operação incorreta.
+q = &j; --> q aponta para i, ao contrário da operação anterior, o ponteiro q acessa o valor de j, logo, a operação é correta.
+p = &*&i; --> retorna um endereço de memória aleatório, logo, a operação é correta.
+i = (*&)j; --> como j está fora dos parênteses, não tem como acessar o valor do endereço de j, logo, a operação é incorreta.
+i = &j; --> a variável i consegue receber o valor armazenado no endereço de j, logo, operação correta.
+i = *&*&j; --> i recebe um valor em um endereco, logo, a operação é correta.
+q = *p; --> deveria ser atribuido um endereco usando operador de endereco e nao um operador de referencia, logo, a operação é incorreta.
+i = (*p)++ + *q; --> retorna o valor para o qual p aponta, somado com o que q aponta e depois incrementa o valor apontado por p, logo, a operação é correta.
