@@ -1,0 +1,15 @@
+int main(){
+int vet[] = {4,9,13};
+int i;
+  for(i=0;i<3;i++){
+  printf("%d ",*(vet+i)); --> retorna o conteúdo do vetor
+  }
+}
+
+int main(){
+int vet[] = {4,9,13};
+int i;
+  for(i=0;i<3;i++){
+  printf("%X ",vet+i); --> retorna o endereço de memória de cada valor do vetor
+  }
+}
