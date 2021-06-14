@@ -1,0 +1,5 @@
+  printf("\ni = %d",i); --> (0, 1, 2, 3, 4)
+  printf("vet[%d] = %.1f",i, vet[i]); --> vet[0] = 1.1, vet[1] = 2.2, vet[3] = 3.3, vet[4] = 4.4,vet[5] = 5.5
+  printf("*(f + %d) = %.1f",i, *(f+i)); --> (f+0) = 1.1, *(f+1) = 2.2, *(f+2) = 3.3 ...
+  printf("&vet[%d] = %X",i, &vet[i]); --> serão exibidos endereços de memórias de cada lugar do vetor
+  printf("(f + %d) = %X",i, f+i); -->  serão gerados endereços de memórias aleatórios para cada posição do vetor
