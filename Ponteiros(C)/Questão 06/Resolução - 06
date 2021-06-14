@@ -1,0 +1,4 @@
+*(pulo + 2); --> acessando o operador de referência e somando duas unidades, podemos acessar o  valor do terceiro elemento do vetor
+*(pulo + 4); --> não será acessado o valor do terceiro elemento, mas do quarto
+pulo + 4; --> não tera acesso ao valor dentro do vetor
+pulo + 2; --> não tera acesso ao valor dentro do vetor
