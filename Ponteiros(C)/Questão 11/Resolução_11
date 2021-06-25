@@ -1,0 +1,8 @@
+1° Válido
+2° Inválido ---> Não tem como retornar o endereço do vetor se não tem posição especificada.
+3° Inválido ---> Não está especificada a posição do vetor que receberia value e tem uma aspas sem abertura.
+4° Inválido ---> Vai dar erro porque a saida exige que se imprima um float e não um vetor de float.
+5° Válido
+6° Inválido ---> A linha de coisas não consegue receber a "linha" que é aloha. Os elementos devem ser passados posição por posição.
+7° Inválido ---> Pf não consegue apontar para value por não ter o operador de endereço.
+8° Válida.
